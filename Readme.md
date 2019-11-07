@@ -5,11 +5,12 @@
 
 ## Dataset
 
-> The [Lyft Bay Wheels System Data](https://www.lyft.com/bikes/bay-wheels/system-data) dataset (formerly known as 'Ford GoBike' dataset) comprises Lyft's Bay Area bike sharing data made available to the public by Lyft and previously Ford (the bike share system's prior operator).  The public data set spans 2017 to present day (Sep 2019), however I focused my analysis on data for 2018 and 2019 while excluding 2017 data for several key reasons, including:
+> The [Lyft Bay Wheels System Data](https://www.lyft.com/bikes/bay-wheels/system-data) dataset (formerly known as 'Ford GoBike' dataset) comprises Lyft's Bay Area bike sharing data made available to the public by Lyft and previously Ford (the bike system's prior operator).  Analysis is performed in Python (version 3.7.3) and Jupyter notebooks while leveraging popular Python data analytics and data science packages: pandas, numpy, and matplotlib.  In addition, I also leveraged the package geopy.distance for determining approximate distances between the geographic coordinates of bike rental stations.
+
+> The Lyft/Ford public dataset spans 2017 to present day (Sep 2019), however I focused my analysis on data for 2018 and 2019 while excluding 2017 data for several key reasons, including:
 * the 2017 data does not include date or timestamps of bike rides
 * the 2017 data is not as recent and may include outdated details  
-
->For the 2018 and 2019 dataset, data is published by Lyft in separate files divided by calendar month, for which I combined the data into a single dataframe named 'bike_clean' for better analysis. 
+> For the 2018 and 2019 dataset, data is published by Lyft in separate files divided by calendar month, for which I combined the data into a single dataframe named 'bike_clean' for better analysis. 
 > Upon consolidation, my combined dataframe covers 3,736,961 bike rentals comprising 3,736,961 rows and 29 attributes (columns).  The dataset covers bike rentals servicing the following 3 service areas in the bay area:  
 * San Francisco
 * East Bay
