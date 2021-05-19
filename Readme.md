@@ -1,5 +1,5 @@
 
-# Lyft Bay Wheels (fka Ford Go Bike) Data Visualization Project
+# Lyft Bay Wheels Data Visualization Project
 ## by Jerry Yip
 
 Full Analysis found in jupyter notebook [Lyft_Bay_Wheels_Slide_Deck.ipynb](https://github.com/jerrycyip/Analysis_Lyft_Bay_Wheels_System_Data/blob/master/Lyft_Bay_Wheels_Slide_Deck.ipynb)
